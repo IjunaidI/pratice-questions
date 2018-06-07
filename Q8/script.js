@@ -1,11 +1,8 @@
-let yearDays = 366;
+let year = 2016;
+let LeapYear = year % 4;
 
-
-if(yearDays == 366)
-{
-	console.log("this a leap year")
-}
-else
-{
-	console.log("this is not a leap year")
+if (LeapYear==0) {
+    console.log("This is Leap Year");
+} else {
+    console.log("This is not leap year");
 }
