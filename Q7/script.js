@@ -1,7 +1,7 @@
 let isEven = 10;
 
 
-    if (value%2 == 0)
+    if (isEven%2 == 0)
     {
     	console.log("EVEN")
             
